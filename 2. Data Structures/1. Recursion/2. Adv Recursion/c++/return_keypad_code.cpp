@@ -22,7 +22,6 @@ int keypad(int num, string output[]) {
 	for(int i=0; i<currentCharacter.length(); i++) {
 		for(int j=0; j<smallCount; j++) {
 			output[k++] = smallOutput[j] + currentCharacter[i] ; //['a', 'b', 'c'] -> ['a', 'b', 'c'] x ['d','e','f']
-			// cout << output[k-1] << " = " << smallOutput[j] << " + " << currentCharacter[i] << endl;
 		}
 	}
 
