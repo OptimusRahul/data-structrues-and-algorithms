@@ -28,3 +28,10 @@ The process in which a function calls itself directly or indirectly is called re
 | 16 | [Remove X](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/1.%20Basic/c%2B%2B/remove_x.cpp)
 | 17 | [Pair Star](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/1.%20Basic/c%2B%2B/pair_star.cpp)
 | 18 | [Tower of Hanoi](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/1.%20Basic/c%2B%2B/tower_of_hanoi.cpp)
+
+#
+
+### Advance Recursion Problem
+
+| S. No. | Question 
+| ----- | -------- 
