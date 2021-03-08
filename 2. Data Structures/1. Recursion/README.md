@@ -35,3 +35,20 @@ The process in which a function calls itself directly or indirectly is called re
 
 | S. No. | Question 
 | ----- | -------- 
+| 1 | [Replace Character Recursively](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/replace_characters_recursively.cpp)
+| 2 | [Remove Duplicated Recursively](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/remove_consecutive_duplicates_recursive.cpp)
+| 3 | [Merge Sort Code](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/merge_sort.cpp)
+| 4 | [Quick Sort Code](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/quick_sort.cpp)
+| 5 | [Return Keypad Code](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/return_keypad_code.cpp)
+| 6 | [Print Keypad Combinations Code](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/print_keypad_code.cpp)
+| 7 | [Check AB](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/check_ab.cpp)
+| 8 | [Staircase](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/staircase.cpp)
+| 9 | [Binary Search (Recursive)](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/binary_search_recursive.cpp)
+| 10 | [Return Subsets of an Array](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/return_subset_of_array.cpp)
+| 11 | [Print Subsets of Array](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/print_subset_of_array.cpp)
+| 12 | [Return Subsets Sum to K](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/return_subsets_sum_to_k.cpp)
+| 13 | [Print Subsets Sum to K](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/print_subsets_sum_to_k.cpp)
+| 14 | [Return all codes](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/return_all_codes.cpp)
+| 15 | [Print all codes](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/print_all_codes.cpp)
+| 16 | [Return Permutations](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/return_permutations.cpp)
+| 17 | [Print Permutations](https://github.com/OptimusRahul/Data-Structrues-and-Algorithms/blob/master/2.%20Data%20Structures/1.%20Recursion/2.%20Adv%20Recursion/c%2B%2B/print_permutations.cpp)
