@@ -1,4 +1,6 @@
+*
+!*.*
+!*/
 *.out
 *.exe
 *.txt
-test.cpp
