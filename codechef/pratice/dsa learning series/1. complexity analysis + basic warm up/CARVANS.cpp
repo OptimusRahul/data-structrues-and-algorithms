@@ -23,7 +23,7 @@ int main() {
 			cout << max_car_speed << endl;
 		} else {
 			int i, j;
-			for(i=1; i<n-1;) {
+			for(i=1; i<n;) {
 				bool flag = false;
 				for(j=i; j<n; j++) {
 					if(speed[j] < speed[j+1]){
