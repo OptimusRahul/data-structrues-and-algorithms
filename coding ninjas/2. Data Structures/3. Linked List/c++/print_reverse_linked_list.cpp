@@ -5,7 +5,7 @@ class Node {
     public:
         int data;
         Node *next;
-        
+
         Node(int data) {
             this->data = data;
             this->next = NULL;
@@ -15,8 +15,9 @@ class Node {
 Node* takeInput() {
     int data;
     cin >> data;
-    
+
     Node *head = NULL, *tail = NULL;
+
     while(data != -1) {
         Node* newNode = new Node(data);
 
@@ -28,25 +29,12 @@ Node* takeInput() {
             tail = newNode;
         }
     }
-
-    return head;
 }
 
-void printIthNode(Node *head, int pos) {
-    Node *temp = head;
-    int count = 0;
-    bool flag = false;
-
-    while(temp != NULL) {
-        if(count == pos) {
-            flag = true;
-            break;
-        }
-        count++;
-        temp = temp->next;
-    }
-
-    if(flag) cout << temp->data << endl;
+void printReverse(Node* head) {
+    if(head == NULL) return;
+    printReverse(head->next);
+    cout << head->data << " ";
 }
 
 int main() {
@@ -54,11 +42,8 @@ int main() {
     cin >> t;
 
     while(t--) {
-        Node *head = takeInput();
-        int pos;
-        cin >> pos;
-
-        printIthNode(head, pos);
+        Node* head = takeInput();
+        printReverse(head);
         cout << endl;
     }
 

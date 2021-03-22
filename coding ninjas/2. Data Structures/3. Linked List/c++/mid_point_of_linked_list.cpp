@@ -5,7 +5,7 @@ class Node {
     public:
         int data;
         Node *next;
-        
+
         Node(int data) {
             this->data = data;
             this->next = NULL;
@@ -15,10 +15,11 @@ class Node {
 Node* takeInput() {
     int data;
     cin >> data;
-    
+
     Node *head = NULL, *tail = NULL;
+
     while(data != -1) {
-        Node* newNode = new Node(data);
+        Node *newNode = new Node(data);
 
         if(head == NULL) {
             head = newNode;
@@ -27,26 +28,36 @@ Node* takeInput() {
             tail->next = newNode;
             tail = newNode;
         }
+
+        cin >> data;
     }
 
     return head;
 }
 
-void printIthNode(Node *head, int pos) {
+void print(Node *head) {
     Node *temp = head;
-    int count = 0;
-    bool flag = false;
-
     while(temp != NULL) {
-        if(count == pos) {
-            flag = true;
-            break;
-        }
-        count++;
+        cout << temp->data << " ";
         temp = temp->next;
     }
+    cout << endl;
+}
 
-    if(flag) cout << temp->data << endl;
+Node* midPoint(Node *head) {
+    if(head == NULL) {
+        return head;
+    }
+
+    Node *slow = head;
+    Node *fast = head->next;
+
+    while(fast != NULL && fast->next != NULL){
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+
+    return slow;
 }
 
 int main() {
@@ -55,10 +66,12 @@ int main() {
 
     while(t--) {
         Node *head = takeInput();
-        int pos;
-        cin >> pos;
+        Node *mid = midPoint(head);
 
-        printIthNode(head, pos);
+        if(mid != NULL) {
+            cout << mid->data;
+        }
+
         cout << endl;
     }
 

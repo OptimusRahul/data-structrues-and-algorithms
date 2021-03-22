@@ -15,10 +15,10 @@ class Node {
 Node* takeInput() {
     int data;
     cin >> data;
-    
+
     Node *head = NULL, *tail = NULL;
     while(data != -1) {
-        Node* newNode = new Node(data);
+        Node *newNode = new Node(data);
 
         if(head == NULL) {
             head = newNode;
@@ -27,26 +27,41 @@ Node* takeInput() {
             tail->next = newNode;
             tail = newNode;
         }
+
+        cin >> data;
     }
 
     return head;
 }
 
-void printIthNode(Node *head, int pos) {
+void print(Node *head) {
     Node *temp = head;
-    int count = 0;
-    bool flag = false;
-
     while(temp != NULL) {
-        if(count == pos) {
-            flag = true;
-            break;
-        }
-        count++;
+        cout << temp->data << " ";
         temp = temp->next;
     }
 
-    if(flag) cout << temp->data << endl;
+    cout << endl;
+}
+
+Node* appendLastNToFirst(Node *head, int n) {
+    Node *temp = head, *tmp = head;
+    if(temp->next == NULL) return head;
+    int count = -n;
+
+    while(temp->next != NULL) {
+        if(count >= 0) {
+            tmp = tmp->next;
+        }
+        temp = temp->next;
+        count++;
+    }
+
+    temp->next = head;
+    head = tmp->next;
+    tmp->next = NULL;
+
+    return head;
 }
 
 int main() {
@@ -55,11 +70,12 @@ int main() {
 
     while(t--) {
         Node *head = takeInput();
-        int pos;
-        cin >> pos;
 
-        printIthNode(head, pos);
-        cout << endl;
+        int n;
+        cin >> n;
+
+        head = appendLastNToFirst(head, n);     
+        print(head);   
     }
 
     return 0;
